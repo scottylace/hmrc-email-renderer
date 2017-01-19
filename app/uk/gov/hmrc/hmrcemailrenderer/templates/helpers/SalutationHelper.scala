@@ -18,7 +18,7 @@ package uk.gov.hmrc.hmrcemailrenderer.templates.helpers
 
 object SalutationHelper {
 
-  def salutationFrom(params: Map[String, Any]): String = {
+  def salutationFrom(params: Map[String, Any], fallbackSalutation: Option[String] = None): String = {
     def capitalised(param: Option[Any]) =
       param.map { value =>
         val buffer = scala.collection.mutable.ArrayBuffer.empty[Char]
@@ -48,7 +48,7 @@ object SalutationHelper {
       case List(Some(title), Some(forename), None, Some(surname), Some(honours)) => s"Dear $title $forename $surname $honours"
       case List(Some(title), Some(forename), Some(secondForename), Some(surname), None) => s"Dear $title $forename $secondForename $surname"
       case List(Some(title), Some(forename), Some(secondForename), Some(surname), Some(honours)) => s"Dear $title $forename $secondForename $surname $honours"
-      case _ => "Hi"
+      case _ => fallbackSalutation.getOrElse("Hi")
     }
   }
 }

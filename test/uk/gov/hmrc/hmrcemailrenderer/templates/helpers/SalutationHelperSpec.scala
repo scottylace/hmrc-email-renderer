@@ -20,11 +20,15 @@ import uk.gov.hmrc.play.test.UnitSpec
 
 import uk.gov.hmrc.hmrcemailrenderer.templates.helpers.SalutationHelper._
 
-class SalutationHelperTest extends UnitSpec {
+class SalutationHelperSpec extends UnitSpec {
     "SA-635 and SA-840 rules for the salutation" should {
 
       "be respected when having no name" in {
         salutationFrom(Map()) should be("Hi")
+      }
+
+      "allow to override the default salutation" in {
+        salutationFrom(Map(), Some("Dear customer")) should be("Dear customer")
       }
 
       "be respected when having name.forename" in {

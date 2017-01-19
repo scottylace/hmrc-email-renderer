@@ -97,9 +97,9 @@ object DigitalContactTemplates {
       templateId = "newMessageAlert_SA309",
       fromAddress = defaultFromAddress,
       service = SelfAssessment,
-      subject = "HMRC paperless notifications: new message",
-      plainTemplate = txt.newMessageAlert.f,
-      htmlTemplate = html.newMessageAlert.f,
+      subject = "Send your tax return online by 31 January",
+      plainTemplate = txt.newMessageAlertSA309.f,
+      htmlTemplate = html.newMessageAlertSA309.f,
       priority = Some(MessagePriority.Background)
     ),
     MessageTemplate.create(
