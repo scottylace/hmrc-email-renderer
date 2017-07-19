@@ -53,27 +53,12 @@ object ServiceIdentifier {
   case object ConstructionIndustryScheme extends ServiceIdentifier { override val name = "cis" }
   case object ChildTrustFund extends ServiceIdentifier { override val name = "ctf" }
   case object StampDutyLandTaxOnlineForOrganisations extends ServiceIdentifier { override val name = "sdlt" }
-  case object EmployerAlignmentSubmission extends ServiceIdentifier { override val name = "eas" }
-  case object EmployerPaymentSummarySubmission extends ServiceIdentifier { override val name = "eps" }
-  case object EarlierYearUpdateSubmission extends ServiceIdentifier { override val name = "eyu" }
-  case object FullPaymentSubmission extends ServiceIdentifier { override val name = "fps" }
-  case object NINOVerificationRequest extends ServiceIdentifier { override val name = "nvr" }
-  case object AccountingForTax extends ServiceIdentifier { override val name = "act" }
-  case object AddSchemeAdministrator extends ServiceIdentifier { override val name = "add" }
-  case object PensionSchemeAmendment extends ServiceIdentifier { override val name = "amd" }
-  case object PensionSchemeAssociation extends ServiceIdentifier { override val name = "ass" }
-  case object CombinedRegistration extends ServiceIdentifier { override val name = "combined" }
-  case object PensionSchemeEvent extends ServiceIdentifier { override val name = "evnt" }
-  case object AmendSchemeDetails extends ServiceIdentifier { override val name = "maint" }
-  case object ProvideReliefAtSourceRepaymentDetails extends ServiceIdentifier { override val name = "ras" }
-  case object PensionSchemeRegistration extends ServiceIdentifier { override val name = "reg" }
-  case object PensionSchemeReturn extends ServiceIdentifier { override val name = "ret" }
-  case object PensionSchemePractitioners extends ServiceIdentifier { override val name = "prac" }
+  case object PayeRTI extends ServiceIdentifier { override val name = "paye-rti" }
+  case object PensionSchemeAdministrators extends ServiceIdentifier { override val name = "psa" }
   case object VATECSalesList extends ServiceIdentifier { override val name = "ecsl" }
   case object NewExportSystem extends ServiceIdentifier { override val name = "nes" }
-  case object SubmitVATReturns extends ServiceIdentifier { override val name = "vat" }
+  case object Vat extends ServiceIdentifier { override val name = "vat" }
   case object Ated extends ServiceIdentifier { override val name = "ated" }
   case object InvestmentTaxRelief extends ServiceIdentifier { override val name = "itr" }
   case object EmacHelpdesk extends ServiceIdentifier { override val name = "emac-helpdesk" }
-
 }

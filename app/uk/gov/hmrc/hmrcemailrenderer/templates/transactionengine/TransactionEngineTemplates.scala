@@ -298,7 +298,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIEASSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.EmployerAlignmentSubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.eas.txt.transactionEngineHMRCPAYERTIEASSuccess.f,
             htmlTemplate = paye.rti.eas.html.transactionEngineHMRCPAYERTIEASSuccess.f,
@@ -307,7 +307,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIEASFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.EmployerAlignmentSubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.eas.txt.transactionEngineHMRCPAYERTIEASFailure.f,
             htmlTemplate = paye.rti.eas.html.transactionEngineHMRCPAYERTIEASFailure.f,
@@ -316,7 +316,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIEASTILSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.EmployerAlignmentSubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.eas.txt.transactionEngineHMRCPAYERTIEASTILSuccess.f,
             htmlTemplate = paye.rti.eas.html.transactionEngineHMRCPAYERTIEASTILSuccess.f,
@@ -325,7 +325,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIEASTILFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.EmployerAlignmentSubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.eas.txt.transactionEngineHMRCPAYERTIEASTILFailure.f,
             htmlTemplate = paye.rti.eas.html.transactionEngineHMRCPAYERTIEASTILFailure.f,
@@ -334,7 +334,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIEPSSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.EmployerPaymentSummarySubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.eps.txt.transactionEngineHMRCPAYERTIEPSSuccess.f,
             htmlTemplate = paye.rti.eps.html.transactionEngineHMRCPAYERTIEPSSuccess.f,
@@ -343,7 +343,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIEPSFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.EmployerPaymentSummarySubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.eps.txt.transactionEngineHMRCPAYERTIEPSFailure.f,
             htmlTemplate = paye.rti.eps.html.transactionEngineHMRCPAYERTIEPSFailure.f,
@@ -352,7 +352,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIEPSTILSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.EmployerPaymentSummarySubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.eps.txt.transactionEngineHMRCPAYERTIEPSTILSuccess.f,
             htmlTemplate = paye.rti.eps.html.transactionEngineHMRCPAYERTIEPSTILSuccess.f,
@@ -361,7 +361,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIEPSTILFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.EmployerPaymentSummarySubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.eps.txt.transactionEngineHMRCPAYERTIEPSTILFailure.f,
             htmlTemplate = paye.rti.eps.html.transactionEngineHMRCPAYERTIEPSTILFailure.f,
@@ -370,7 +370,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIEYUSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.EarlierYearUpdateSubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.eyu.txt.transactionEngineHMRCPAYERTIEYUSuccess.f,
             htmlTemplate = paye.rti.eyu.html.transactionEngineHMRCPAYERTIEYUSuccess.f,
@@ -379,7 +379,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIEYUFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.EarlierYearUpdateSubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.eyu.txt.transactionEngineHMRCPAYERTIEYUFailure.f,
             htmlTemplate = paye.rti.eyu.html.transactionEngineHMRCPAYERTIEYUFailure.f,
@@ -388,7 +388,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIEYUTILSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.EarlierYearUpdateSubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.eyu.txt.transactionEngineHMRCPAYERTIEYUTILSuccess.f,
             htmlTemplate = paye.rti.eyu.html.transactionEngineHMRCPAYERTIEYUTILSuccess.f,
@@ -397,7 +397,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIEYUTILFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.EarlierYearUpdateSubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.eyu.txt.transactionEngineHMRCPAYERTIEYUTILFailure.f,
             htmlTemplate = paye.rti.eyu.html.transactionEngineHMRCPAYERTIEYUTILFailure.f,
@@ -406,7 +406,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIFPSSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.FullPaymentSubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.fps.txt.transactionEngineHMRCPAYERTIFPSSuccess.f,
             htmlTemplate = paye.rti.fps.html.transactionEngineHMRCPAYERTIFPSSuccess.f,
@@ -415,7 +415,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIFPSFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.FullPaymentSubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.fps.txt.transactionEngineHMRCPAYERTIFPSFailure.f,
             htmlTemplate = paye.rti.fps.html.transactionEngineHMRCPAYERTIFPSFailure.f,
@@ -424,7 +424,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIFPSTILSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.FullPaymentSubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.fps.txt.transactionEngineHMRCPAYERTIFPSTILSuccess.f,
             htmlTemplate = paye.rti.fps.html.transactionEngineHMRCPAYERTIFPSTILSuccess.f,
@@ -433,7 +433,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTIFPSTILFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.FullPaymentSubmission,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.fps.txt.transactionEngineHMRCPAYERTIFPSTILFailure.f,
             htmlTemplate = paye.rti.fps.html.transactionEngineHMRCPAYERTIFPSTILFailure.f,
@@ -442,7 +442,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTINVRSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.NINOVerificationRequest,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.nvr.txt.transactionEngineHMRCPAYERTINVRSuccess.f,
             htmlTemplate = paye.rti.nvr.html.transactionEngineHMRCPAYERTINVRSuccess.f,
@@ -451,7 +451,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTINVRFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.NINOVerificationRequest,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.nvr.txt.transactionEngineHMRCPAYERTINVRFailure.f,
             htmlTemplate = paye.rti.nvr.html.transactionEngineHMRCPAYERTINVRFailure.f,
@@ -460,7 +460,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTINVRTILSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.NINOVerificationRequest,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.nvr.txt.transactionEngineHMRCPAYERTINVRTILSuccess.f,
             htmlTemplate = paye.rti.nvr.html.transactionEngineHMRCPAYERTINVRTILSuccess.f,
@@ -469,7 +469,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPAYERTINVRTILFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.NINOVerificationRequest,
+            service = ServiceIdentifier.PayeRTI,
             subject = extractSubject(_),
             plainTemplate = paye.rti.nvr.txt.transactionEngineHMRCPAYERTINVRTILFailure.f,
             htmlTemplate = paye.rti.nvr.html.transactionEngineHMRCPAYERTINVRTILFailure.f,
@@ -478,7 +478,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRAACTSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.ChildTrustFund,
+            service = ServiceIdentifier.AgentAuthorisation,
             subject = extractSubject(_),
             plainTemplate = ir.aa.txt.transactionEngineIRAACTSuccess.f,
             htmlTemplate = ir.aa.html.transactionEngineIRAACTSuccess.f,
@@ -487,7 +487,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRAACTFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.ChildTrustFund,
+            service = ServiceIdentifier.AgentAuthorisation,
             subject = extractSubject(_),
             plainTemplate = ir.aa.txt.transactionEngineIRAACTFailure.f,
             htmlTemplate = ir.aa.html.transactionEngineIRAACTFailure.f,
@@ -568,7 +568,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRCTFANNUALRETURNSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.ChildTrustFund,
             subject = extractSubject(_),
             plainTemplate = ir.ctf.txt.transactionEngineIRCTFANNUALRETURNSuccess.f,
             htmlTemplate = ir.ctf.html.transactionEngineIRCTFANNUALRETURNSuccess.f,
@@ -577,7 +577,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRCTFANNUALRETURNFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.ChildTrustFund,
             subject = extractSubject(_),
             plainTemplate = ir.ctf.txt.transactionEngineIRCTFANNUALRETURNFailure.f,
             htmlTemplate = ir.ctf.html.transactionEngineIRCTFANNUALRETURNFailure.f,
@@ -586,7 +586,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEEOYSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEEOYSuccess.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEEOYSuccess.f,
@@ -595,7 +595,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEEOYFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEEOYFailure.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEEOYFailure.f,
@@ -604,7 +604,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEEOYTILSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEEOYTILSuccess.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEEOYTILSuccess.f,
@@ -613,7 +613,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEEOYTILFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEEOYTILFailure.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEEOYTILFailure.f,
@@ -622,7 +622,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEEXBSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEEXBSuccess.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEEXBSuccess.f,
@@ -631,7 +631,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEEXBFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEEXBFailure.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEEXBFailure.f,
@@ -640,7 +640,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEMOVSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEMOVSuccess.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEMOVSuccess.f,
@@ -649,7 +649,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEMOVFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEMOVFailure.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEMOVFailure.f,
@@ -658,7 +658,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEMOVTILSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEMOVTILSuccess.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEMOVTILSuccess.f,
@@ -667,7 +667,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEMOVTILFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEMOVTILFailure.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEMOVTILFailure.f,
@@ -676,7 +676,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEP38ASuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEP38ASuccess.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEP38ASuccess.f,
@@ -685,7 +685,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEP38AFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEP38AFailure.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEP38AFailure.f,
@@ -694,7 +694,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEUPDATESuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEUPDATESuccess.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEUPDATESuccess.f,
@@ -703,7 +703,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineIRPAYEUPDATEFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SelfAssessment,
+            service = ServiceIdentifier.PayAsYouEarn,
             subject = extractSubject(_),
             plainTemplate = ir.paye.txt.transactionEngineIRPAYEUPDATEFailure.f,
             htmlTemplate = ir.paye.html.transactionEngineIRPAYEUPDATEFailure.f,
@@ -730,7 +730,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAACCTTAXSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.AccountingForTax,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.act.txt.transactionEngineHMRCPSAACCTTAXSuccess.f,
             htmlTemplate = psa.act.html.transactionEngineHMRCPSAACCTTAXSuccess.f,
@@ -739,7 +739,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAACCTTAXFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.AccountingForTax,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.act.txt.transactionEngineHMRCPSAACCTTAXFailure.f,
             htmlTemplate = psa.act.html.transactionEngineHMRCPSAACCTTAXFailure.f,
@@ -748,7 +748,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAADDSCHASuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.AddSchemeAdministrator,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.add.txt.transactionEngineHMRCPSAADDSCHASuccess.f,
             htmlTemplate = psa.add.html.transactionEngineHMRCPSAADDSCHASuccess.f,
@@ -757,7 +757,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAADDSCHAFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.AddSchemeAdministrator,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.add.txt.transactionEngineHMRCPSAADDSCHAFailure.f,
             htmlTemplate = psa.add.html.transactionEngineHMRCPSAADDSCHAFailure.f,
@@ -766,7 +766,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAAMDDETSSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.PensionSchemeAmendment,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.amd.txt.transactionEngineHMRCPSAAMDDETSSuccess.f,
             htmlTemplate = psa.amd.html.transactionEngineHMRCPSAAMDDETSSuccess.f,
@@ -775,7 +775,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAAMDDETSFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.PensionSchemeAmendment,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.amd.txt.transactionEngineHMRCPSAAMDDETSFailure.f,
             htmlTemplate = psa.amd.html.transactionEngineHMRCPSAAMDDETSFailure.f,
@@ -784,7 +784,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAASSCSASuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.PensionSchemeAssociation,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.ass.txt.transactionEngineHMRCPSAASSCSASuccess.f,
             htmlTemplate = psa.ass.html.transactionEngineHMRCPSAASSCSASuccess.f,
@@ -793,7 +793,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAASSCSAFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.PensionSchemeAssociation,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.ass.txt.transactionEngineHMRCPSAASSCSAFailure.f,
             htmlTemplate = psa.ass.html.transactionEngineHMRCPSAASSCSAFailure.f,
@@ -802,7 +802,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSACOMBINEDREGSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.CombinedRegistration,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.combined.txt.transactionEngineHMRCPSACOMBINEDREGSuccess.f,
             htmlTemplate = psa.combined.html.transactionEngineHMRCPSACOMBINEDREGSuccess.f,
@@ -811,7 +811,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSACOMBINEDREGFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.CombinedRegistration,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.combined.txt.transactionEngineHMRCPSACOMBINEDREGFailure.f,
             htmlTemplate = psa.combined.html.transactionEngineHMRCPSACOMBINEDREGFailure.f,
@@ -820,7 +820,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAEVNTREPSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.PensionSchemeEvent,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.evnt.txt.transactionEngineHMRCPSAEVNTREPSuccess.f,
             htmlTemplate = psa.evnt.html.transactionEngineHMRCPSAEVNTREPSuccess.f,
@@ -829,7 +829,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAEVNTREPFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.PensionSchemeEvent,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.evnt.txt.transactionEngineHMRCPSAEVNTREPFailure.f,
             htmlTemplate = psa.evnt.html.transactionEngineHMRCPSAEVNTREPFailure.f,
@@ -838,7 +838,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAMAINTSCMSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.AmendSchemeDetails,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.maint.txt.transactionEngineHMRCPSAMAINTSCMSuccess.f,
             htmlTemplate = psa.maint.html.transactionEngineHMRCPSAMAINTSCMSuccess.f,
@@ -847,7 +847,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAMAINTSCMFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.AmendSchemeDetails,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.maint.txt.transactionEngineHMRCPSAMAINTSCMFailure.f,
             htmlTemplate = psa.maint.html.transactionEngineHMRCPSAMAINTSCMFailure.f,
@@ -856,7 +856,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSARASSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.ProvideReliefAtSourceRepaymentDetails,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.ras.txt.transactionEngineHMRCPSARASSuccess.f,
             htmlTemplate = psa.ras.html.transactionEngineHMRCPSARASSuccess.f,
@@ -865,7 +865,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSARASFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.ProvideReliefAtSourceRepaymentDetails,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.ras.txt.transactionEngineHMRCPSARASFailure.f,
             htmlTemplate = psa.ras.html.transactionEngineHMRCPSARASFailure.f,
@@ -874,7 +874,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAREGSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.PensionSchemeRegistration,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.reg.txt.transactionEngineHMRCPSAREGSuccess.f,
             htmlTemplate = psa.reg.html.transactionEngineHMRCPSAREGSuccess.f,
@@ -883,7 +883,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSAREGFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.PensionSchemeRegistration,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.reg.txt.transactionEngineHMRCPSAREGFailure.f,
             htmlTemplate = psa.reg.html.transactionEngineHMRCPSAREGFailure.f,
@@ -892,7 +892,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSARETSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.PensionSchemeReturn,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.ret.txt.transactionEngineHMRCPSARETSuccess.f,
             htmlTemplate = psa.ret.html.transactionEngineHMRCPSARETSuccess.f,
@@ -901,7 +901,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCPSARETFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.PensionSchemeReturn,
+            service = ServiceIdentifier.PensionSchemeAdministrators,
             subject = extractSubject(_),
             plainTemplate = psa.ret.txt.transactionEngineHMRCPSARETFailure.f,
             htmlTemplate = psa.ret.html.transactionEngineHMRCPSARETFailure.f,
@@ -910,7 +910,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
           templateId = "transactionEngineHMRCPSAPRACAUTHSuccess",
           fromAddress = transactionEngineAddress,
-          service = ServiceIdentifier.PensionSchemePractitioners,
+          service = ServiceIdentifier.PensionSchemeAdministrators,
           subject = extractSubject(_),
           plainTemplate = psa.prac.txt.transactionEngineHMRCPSAPRACAUTHSuccess.f,
           htmlTemplate = psa.prac.html.transactionEngineHMRCPSAPRACAUTHSuccess.f,
@@ -919,7 +919,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
           templateId = "transactionEngineHMRCPSAPRACAUTHFailure",
           fromAddress = transactionEngineAddress,
-          service = ServiceIdentifier.PensionSchemePractitioners,
+          service = ServiceIdentifier.PensionSchemeAdministrators,
           subject = extractSubject(_),
           plainTemplate = psa.prac.txt.transactionEngineHMRCPSAPRACAUTHFailure.f,
           htmlTemplate = psa.prac.html.transactionEngineHMRCPSAPRACAUTHFailure.f,
@@ -928,7 +928,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
           templateId = "transactionEngineHMRCPSAPRACDEAUTHSuccess",
           fromAddress = transactionEngineAddress,
-          service = ServiceIdentifier.PensionSchemePractitioners,
+          service = ServiceIdentifier.PensionSchemeAdministrators,
           subject = extractSubject(_),
           plainTemplate = psa.prac.txt.transactionEngineHMRCPSAPRACDEAUTHSuccess.f,
           htmlTemplate = psa.prac.html.transactionEngineHMRCPSAPRACDEAUTHSuccess.f,
@@ -937,7 +937,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
           templateId = "transactionEngineHMRCPSAPRACDEAUTHFailure",
           fromAddress = transactionEngineAddress,
-          service = ServiceIdentifier.PensionSchemePractitioners,
+          service = ServiceIdentifier.PensionSchemeAdministrators,
           subject = extractSubject(_),
           plainTemplate = psa.prac.txt.transactionEngineHMRCPSAPRACDEAUTHFailure.f,
           htmlTemplate = psa.prac.html.transactionEngineHMRCPSAPRACDEAUTHFailure.f,
@@ -1126,7 +1126,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCVATDECSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SubmitVATReturns,
+            service = ServiceIdentifier.Vat,
             subject = extractSubject(_),
             plainTemplate = vat.txt.transactionEngineHMRCVATDECSuccess.f,
             htmlTemplate = vat.html.transactionEngineHMRCVATDECSuccess.f,
@@ -1135,7 +1135,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCVATDECFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SubmitVATReturns,
+            service = ServiceIdentifier.Vat,
             subject = extractSubject(_),
             plainTemplate = vat.txt.transactionEngineHMRCVATDECFailure.f,
             htmlTemplate = vat.html.transactionEngineHMRCVATDECFailure.f,
@@ -1144,7 +1144,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCVATDECTILSuccess",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SubmitVATReturns,
+            service = ServiceIdentifier.Vat,
             subject = extractSubject(_),
             plainTemplate = vat.txt.transactionEngineHMRCVATDECTILSuccess.f,
             htmlTemplate = vat.html.transactionEngineHMRCVATDECTILSuccess.f,
@@ -1153,7 +1153,7 @@ object TransactionEngineTemplates {
         MessageTemplate.createWithDynamicSubject(
             templateId = "transactionEngineHMRCVATDECTILFailure",
             fromAddress = transactionEngineAddress,
-            service = ServiceIdentifier.SubmitVATReturns,
+            service = ServiceIdentifier.Vat,
             subject = extractSubject(_),
             plainTemplate = vat.txt.transactionEngineHMRCVATDECTILFailure.f,
             htmlTemplate = vat.html.transactionEngineHMRCVATDECTILFailure.f,
